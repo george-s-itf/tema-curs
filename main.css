@@ -4,26 +4,26 @@ h1 {
    
 .flexcolumn{
     width: 100%;
-            height: auto;
-            display: flex;
-            flex-wrap: wrap;
-            align-content: center;
-            align-items: justify;
-            background-color: white;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: justify;
+    background-color: white;
     
     
 }
 .item{
     width: 400px;
-            height: 300px;
-            display: flex;
-            background-color: darkblue;
-            margin: 10px;
-            text-align: center;
-            font-size: 30px;
-            line-height: 300px;
-            justify-content: center;
-            align-items: justify;
+    height: 300px;
+    display: flex;
+    background-color: darkblue;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 300px;
+    justify-content: center;
+    align-items: justify;
 }
 
 a {
