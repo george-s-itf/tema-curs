@@ -37,6 +37,6 @@ a {
     background-color: grey;
 }
 
-.a:hover{
+a:hover{
     color: black;
 }
