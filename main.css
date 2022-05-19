@@ -10,9 +10,9 @@ h1 {
     align-content: center;
     align-items: justify;
     background-color: white;
-    
-    
+    flex-wrap: wrap;   
 }
+
 .item{
     width: 400px;
     height: 300px;
