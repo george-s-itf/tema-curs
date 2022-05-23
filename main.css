@@ -2,7 +2,7 @@ h1 {
     color: blue
 }
    
-.flexcolumn{
+.flexcolumn {
     width: 100%;
     height: auto;
     display: flex;
@@ -13,7 +13,7 @@ h1 {
     flex-wrap: wrap;   
 }
 
-.item{
+.item {
     width: 400px;
     height: 300px;
     display: flex;
@@ -33,10 +33,10 @@ a {
     color: darkgrey;
   }
 
-.item:hover{
+.item:hover {
     background-color: grey;
 }
 
-a:hover{
+a:hover {
     color: black;
 }
