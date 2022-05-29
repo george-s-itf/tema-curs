@@ -1,8 +1,12 @@
+html{
+    background-color: lightseagreen;
+}
+
 h1{
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    color: blue;
+    color: black;
     text-align: center;
     
 }
@@ -13,7 +17,11 @@ h1{
     width: 400px;
     height: 400px;
     text-align: justify;
-    margin-left: 375px;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin: auto;
+    
 }
 
 p{
@@ -29,3 +37,7 @@ a {
     font-weight: Courier;
     color: black;
   }
+
+a:hover{
+    font-size: 150%;
+}
