@@ -14,6 +14,8 @@ img {
     font-weight: Ariel;
     background-color: lightgrey;
     font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 
 .title {
@@ -78,3 +80,13 @@ body {
     padding: 100px;
     font-family: Arial, Helvetica, sans-serif
     }
+
+.name:hover{
+    font-size: 150%;
+    transition: 0.5s
+}
+
+.subTitle:hover{
+    font-size: 150%;
+    transition: 0.5s
+}
