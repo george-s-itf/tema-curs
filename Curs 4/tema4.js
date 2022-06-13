@@ -46,21 +46,28 @@ console.log(mySecondArray)
 
 // tema creativa obligatorie 2
 
-
-
-
-
+for (let i = 0; i < myArray.length; i++) {
+  if (myArray[i-1] === myArray[i]) {
+    console.log (myArray[i-1], myArray[i]);
+  }
+}
 
 // tema creativa obligatorie 3
 
-let sign = prompt('Choose a number between 0 and 15!');
-
-sign = parseInt(sign);
-
-console.log(mySecondArray[sign]);
 
 
+//tema creativa obligatorie 4
 
+for (let i = 0; i<mySecondArray.length; i++){
+    let curentItem = mySecondArray [i];
+    if (curentItem <=4) {
+        mySecondArray[i] = [curentItem, curentItem + 1, curentItem + 2];
+    } else {
+      mySecondArray[i] = [curentItem, curentItem - 1, curentItem - 2];
+    }
+}
+
+console.log(mySecondArray)
 
 
 
